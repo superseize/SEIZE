@@ -26,7 +26,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 
-import threadingf
+import threading
 import time
 _inv_no_lock = threading.Lock()  # Invoice number race condition rokne ke liye
 #import tkinter as tk
